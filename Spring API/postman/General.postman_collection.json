@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "b266220d-7ab1-4f1c-8ac1-c2153399cdf3",
+		"name": "General",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/test-circle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/test-circle",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"test-circle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/test-activity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/test-activity",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"test-activity"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

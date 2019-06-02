@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df18c07a-4fa3-4ee3-837b-1648d98aadbc" name="Default" comment="-Bugfixes; ready for testing">
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/CronJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/CronJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/GetCurrentPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/GetCurrentPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/UpdateProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/UpdateProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gb/vhs/api/web/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gb/vhs/api/web/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/api$ACTEV__bootRun_.coverage" NAME="ACTEV [bootRun] Coverage Results" MODIFIED="1552156483842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/service/CronJobService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="83" column="79" selection-start-line="83" selection-start-column="79" selection-end-line="83" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/service/GetCurrentPoints.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/enumeration/Enum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>property</find>
+      <find>logSchemeRe</find>
+      <find>.plus</find>
+      <find>enum</find>
+      <find>present</find>
+      <find>orElseG</find>
+      <find>google</find>
+      <find>fetchDate</find>
+      <find>orElse</find>
+      <find>orEl</find>
+      <find>thursday</find>
+      <find>saturday</find>
+      <find>time_preference</find>
+      <find>monday</find>
+      <find>friday</find>
+      <find>tuesday</find>
+      <find>current_max_messages</find>
+      <find>message</find>
+      <find>&quot;</find>
+      <find>profile</find>
+      <find>find</find>
+      <find>messagepr</find>
+      <find>want to let</find>
+      <find>update</find>
+      <find>Runtime</find>
+      <find>put</find>
+      <find>updateUserPr</find>
+      <find>a</find>
+      <find>extraversion</find>
+      <find>userProfile</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Object requires a valid Key attribute</replace>
+      <replace>startDateTime attribute</replace>
+      <replace>message_schedule</replace>
+      <replace>friday</replace>
+      <replace>wednesday</replace>
+      <replace>tuesday</replace>
+      <replace>thursday</replace>
+      <replace>saturday</replace>
+      <replace>sunday</replace>
+      <replace>max_messages</replace>
+      <replace>'</replace>
+      <replace>Agreeableness</replace>
+      <replace>Conscientiousness</replace>
+      <replace>Neuroticism</replace>
+      <replace>Openness</replace>
+      <replace>generalProfile</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="test" />
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/ae/api/entity/Provider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ae/api/entity/enumeration/Enum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ae/api/entity/ProviderRateLimit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ae/api/repository/ProviderRateLimitRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ae/api/repository/ProviderApiRequestRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ae/api/web/ProviderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ae/api/entity/ProviderApiRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ae/api/provider/fitbit/service/FitbitService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ae/api/service/ProviderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ae/api/service/ActivitiesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/ApiApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/web/ActivityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/ActivitiesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/UserRole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/response/PersuasionProfile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/UploaderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/web/ApiController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/request/ActivityForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/MessageFeedbackRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/TimeInterval.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/TimeIntervalRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/PerformedActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/PerformedActivityRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/CreateUpdateProfileJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/AnalyzeNewActivity.java" />
+        <option value="$PROJECT_DIR$/.idea/modules/api_main.iml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/MessageFeedback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/MessageRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/ActivityWave.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/response/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/enumeration/Enum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/MessageTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/MessageTemplateRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/ActivityRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/GetCurrentWeek.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/GetTeamPoints.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/Activity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/ActivityTriggerAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/GetMessageScheduleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/UserProfile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/UserProfileRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/UpdateProfile.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/import.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/web/UsersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/CronJobService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gb/vhs/api/service/GetCurrentPoints.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="510" />
+    <option name="y" value="150" />
+    <option name="width" value="980" />
+    <option name="height" value="525" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VHC-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VHC-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VHC-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VHC-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VHC-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VHC-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VHC-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="enumeration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VHC-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="api" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="api_main" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="api" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="api_main" type="616d4139:PackageViewModuleNode" />
+              <item name="ae.api" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="api" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="api_main" type="616d4139:PackageViewModuleNode" />
+              <item name="ae.api" type="1f31426a:PackageElementNode" />
+              <item name="entity" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="api" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="api_main" type="616d4139:PackageViewModuleNode" />
+              <item name="ae.api" type="1f31426a:PackageElementNode" />
+              <item name="entity" type="1f31426a:PackageElementNode" />
+              <item name="response" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="api" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="api_main" type="616d4139:PackageViewModuleNode" />
+              <item name="ae.api" type="1f31426a:PackageElementNode" />
+              <item name="repository" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="api" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="api_main" type="616d4139:PackageViewModuleNode" />
+              <item name="ae.api" type="1f31426a:PackageElementNode" />
+              <item name="service" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="api" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="api_main" type="616d4139:PackageViewModuleNode" />
+              <item name="ae.api" type="1f31426a:PackageElementNode" />
+              <item name="web" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="enumerated&#9;PSI&#9;JAVA://com.sun.jmx.snmp.Enumerated" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.51617646" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gb.vhs.api.service" />
+      <recent name="gb.vhs.api.entity" />
+      <recent name="gb.vhs.api.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jens d´Hondt\Dropbox\BEP\VHC-api\.idea\libraries" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.ACTEV [bootRun]">
+    <configuration default="true" type="Applet">
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ACTEV [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="VHC-api [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ae.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gb.vhs.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ft.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.ACTEV [bootRun]" />
+      <item itemvalue="Gradle.VHC-api [dependencies]" />
+      <item itemvalue="Spring Boot.ApiApplication" />
+      <item itemvalue="Spring Boot.ApiApplication (1)" />
+      <item itemvalue="Spring Boot.ApiApplication (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ACTEV [bootRun]" />
+        <item itemvalue="Gradle.VHC-api [dependencies]" />
+        <item itemvalue="Gradle.VHC-api [dependencies]" />
+        <item itemvalue="Gradle.ACTEV [bootRun]" />
+        <item itemvalue="Gradle.ACTEV [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df18c07a-4fa3-4ee3-837b-1648d98aadbc" name="Default" comment="" />
+      <created>1551696386697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551696386697</updated>
+      <workItem from="1551696388569" duration="441000" />
+      <workItem from="1551696861385" duration="22436000" />
+      <workItem from="1551726915465" duration="869000" />
+      <workItem from="1551775281971" duration="20615000" />
+      <workItem from="1551801761206" duration="8535000" />
+      <workItem from="1551866352684" duration="13777000" />
+      <workItem from="1551891990763" duration="1768000" />
+      <workItem from="1551947147533" duration="19224000" />
+      <workItem from="1552040318763" duration="2687000" />
+      <workItem from="1552142164018" duration="9671000" />
+      <workItem from="1552221807805" duration="2433000" />
+      <workItem from="1552837282658" duration="538000" />
+      <workItem from="1553501451764" duration="180000" />
+      <workItem from="1553613251416" duration="597000" />
+      <workItem from="1553683491269" duration="469000" />
+      <workItem from="1553854025297" duration="3750000" />
+      <workItem from="1553873681589" duration="1254000" />
+      <workItem from="1553928994579" duration="19414000" />
+      <workItem from="1554137392109" duration="2959000" />
+      <workItem from="1554202948242" duration="558000" />
+      <workItem from="1554221481805" duration="4256000" />
+      <workItem from="1554283086842" duration="524000" />
+      <workItem from="1554300708679" duration="2246000" />
+      <workItem from="1554371786840" duration="597000" />
+      <workItem from="1554399125329" duration="1138000" />
+      <workItem from="1554542377412" duration="597000" />
+      <workItem from="1554630765377" duration="700000" />
+      <workItem from="1554732760118" duration="486000" />
+      <workItem from="1554784934496" duration="5192000" />
+      <workItem from="1554905599091" duration="3616000" />
+      <workItem from="1554989993876" duration="510000" />
+      <workItem from="1554990569904" duration="303000" />
+      <workItem from="1555076616301" duration="576000" />
+      <workItem from="1555151105550" duration="534000" />
+      <workItem from="1555331156359" duration="1294000" />
+      <workItem from="1555335176520" duration="9303000" />
+      <workItem from="1555422787633" duration="552000" />
+      <workItem from="1555423401074" duration="2850000" />
+      <workItem from="1555426353961" duration="5546000" />
+      <workItem from="1555435005836" duration="8221000" />
+      <workItem from="1555445731557" duration="4636000" />
+      <workItem from="1555489942047" duration="575000" />
+      <workItem from="1555508321890" duration="401000" />
+      <workItem from="1555569709435" duration="1974000" />
+      <workItem from="1555575165464" duration="10412000" />
+      <workItem from="1555618585544" duration="299000" />
+      <workItem from="1555619495018" duration="1806000" />
+      <workItem from="1555621341211" duration="5100000" />
+      <workItem from="1555654958393" duration="8312000" />
+      <workItem from="1555664172926" duration="2845000" />
+      <workItem from="1555754261501" duration="24016000" />
+      <workItem from="1555827936521" duration="2242000" />
+      <workItem from="1555860307784" duration="572000" />
+      <workItem from="1555861727510" duration="712000" />
+      <workItem from="1555876674194" duration="965000" />
+      <workItem from="1555932773252" duration="26333000" />
+      <workItem from="1556017972510" duration="2129000" />
+      <workItem from="1556041947041" duration="2030000" />
+      <workItem from="1556045071660" duration="3597000" />
+      <workItem from="1556051109460" duration="8475000" />
+      <workItem from="1556063309547" duration="9114000" />
+      <workItem from="1556100049327" duration="10000" />
+      <workItem from="1556100712249" duration="18000" />
+      <workItem from="1556100768788" duration="348000" />
+      <workItem from="1556103981605" duration="952000" />
+      <workItem from="1556105448813" duration="245000" />
+      <workItem from="1556106995839" duration="109000" />
+      <workItem from="1556115799372" duration="2514000" />
+      <workItem from="1556140185208" duration="3559000" />
+      <workItem from="1556181111713" duration="3812000" />
+      <workItem from="1556198498600" duration="4565000" />
+      <workItem from="1556204630383" duration="61000" />
+      <workItem from="1556205306106" duration="633000" />
+      <workItem from="1556213548372" duration="3205000" />
+      <workItem from="1556220358774" duration="1201000" />
+      <workItem from="1556222397274" duration="60000" />
+      <workItem from="1556222697613" duration="2279000" />
+      <workItem from="1556225915472" duration="457000" />
+      <workItem from="1556257102744" duration="5003000" />
+      <workItem from="1556265695937" duration="226000" />
+      <workItem from="1556267648991" duration="163000" />
+      <workItem from="1556268791771" duration="696000" />
+      <workItem from="1556270691690" duration="20000" />
+      <workItem from="1556275394779" duration="605000" />
+      <workItem from="1556536939140" duration="6387000" />
+      <workItem from="1556549519126" duration="97000" />
+      <workItem from="1556550505974" duration="330000" />
+      <workItem from="1556550879141" duration="29000" />
+      <workItem from="1556551548905" duration="335000" />
+      <workItem from="1556561470561" duration="270000" />
+      <workItem from="1556563554174" duration="174000" />
+      <workItem from="1556566841332" duration="5427000" />
+      <workItem from="1556648882441" duration="6591000" />
+      <workItem from="1556657189593" duration="1242000" />
+      <workItem from="1556658678555" duration="4021000" />
+      <workItem from="1556695426967" duration="4925000" />
+      <workItem from="1556713485382" duration="5733000" />
+      <workItem from="1556781475472" duration="592000" />
+      <workItem from="1557053794669" duration="759000" />
+      <workItem from="1557087658202" duration="597000" />
+      <workItem from="1557129262715" duration="651000" />
+      <workItem from="1557243827938" duration="512000" />
+      <workItem from="1557245024006" duration="524000" />
+      <workItem from="1557644017534" duration="705000" />
+      <workItem from="1557691180246" duration="1134000" />
+      <workItem from="1557726442047" duration="706000" />
+      <workItem from="1557912433870" duration="1380000" />
+      <workItem from="1557914066346" duration="325000" />
+      <workItem from="1557915820771" duration="680000" />
+      <workItem from="1557930061137" duration="308000" />
+      <workItem from="1558027231894" duration="839000" />
+      <workItem from="1558269908097" duration="645000" />
+      <workItem from="1558281610013" duration="148000" />
+      <workItem from="1558416239079" duration="1053000" />
+      <workItem from="1558548856821" duration="1207000" />
+      <workItem from="1558609306920" duration="733000" />
+      <workItem from="1558963536512" duration="559000" />
+      <workItem from="1559071491291" duration="649000" />
+      <workItem from="1559153449629" duration="95000" />
+    </task>
+    <task id="LOCAL-00001" summary="Version committed by Raoul on dropbox on 17/04/19'">
+      <created>1555575506451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555575506452</updated>
+    </task>
+    <task id="LOCAL-00002" summary="-Added messageScheduler cron jobs&#10;-Added userprofile entity&#10;&#10;TODO:&#10;Fix that UserProfile table doesnt show in db">
+      <created>1555601728978</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555601728978</updated>
+    </task>
+    <task id="LOCAL-00003" summary="-Added activity entity&#10;-Added user profile updating&#10;&#10;TODO:&#10;=Activity trigger analyzer">
+      <created>1555626338409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555626338409</updated>
+    </task>
+    <task id="LOCAL-00004" summary="-Added activity trigger analyzer&#10;&#10;TODO:&#10;=Kafka producer">
+      <created>1555660640939</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555660640939</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-Added kafka producer to cronservice&#10;&#10;TODO:&#10;=Kafka uitbreiden aan Spring side">
+      <created>1555668581737</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555668581738</updated>
+    </task>
+    <task id="LOCAL-00006" summary="-Finished message scheduler in cron service to feed kafka queue &#10;&#10;TODO:&#10;-Add kafka to profileupdate">
+      <created>1555760494523</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555760494523</updated>
+    </task>
+    <task id="LOCAL-00007" summary="-Added kafka to profileupdate&#10;&#10;TODO:&#10;-Add message_templates&#10;-Add activities">
+      <created>1555770287158</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555770287158</updated>
+    </task>
+    <task id="LOCAL-00008" summary="-Added activities&#10;&#10;TODO:&#10;-Add message_templates">
+      <created>1555777446798</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555777446798</updated>
+    </task>
+    <task id="LOCAL-00009" summary="-Added message_templates&#10;&#10;TODO:&#10;-Test message scheduling">
+      <created>1555780566037</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555780566037</updated>
+    </task>
+    <task id="LOCAL-00010" summary="-Bug fix for POST message&#10;&#10;TODO:&#10;-Test message scheduling">
+      <created>1555793762814</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555793762816</updated>
+    </task>
+    <task id="LOCAL-00011" summary="-Added schedule_id to pass on message request&#10;-Added users/messagepreferences as endpoint for message feedback page&#10;&#10;TODO:&#10;-Random/adaptive group in user&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)">
+      <created>1555959052622</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555959052625</updated>
+    </task>
+    <task id="LOCAL-00012" summary="-Added treatment group property to user&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)">
+      <created>1555959762553</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555959762553</updated>
+    </task>
+    <task id="LOCAL-00013" summary="-Updated MessageTemplates &amp; Activities&#10;-Debugged message scheduler&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)">
+      <created>1555970168174</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555970168174</updated>
+    </task>
+    <task id="LOCAL-00014" summary="-Removed bug on MessageTemplate GET&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)">
+      <created>1555971020894</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555971020894</updated>
+    </task>
+    <task id="LOCAL-00015" summary="- Started on competition leaderboard (getTeamPoint &amp; GetCurrentTeamChallenge) but kept getting throwbacks.&#10;Will now spend time on testing as it's more important&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)">
+      <created>1556086708443</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1556086708443</updated>
+    </task>
+    <task id="LOCAL-00016" summary="- Minor bug fixes&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)">
+      <created>1556097614092</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1556097614092</updated>
+    </task>
+    <task id="LOCAL-00017" summary="-POST PerformedActivities now asks for player_id instead of user_id&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)">
+      <created>1556115897111</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1556115897111</updated>
+    </task>
+    <task id="LOCAL-00018" summary="-Added http.not_found returns&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)">
+      <created>1556119747480</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1556119747480</updated>
+    </task>
+    <task id="LOCAL-00019" summary="-Added user PUT&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)">
+      <created>1556178380290</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1556178380290</updated>
+    </task>
+    <task id="LOCAL-00020" summary="-Improved User CRUD requests&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)">
+      <created>1556179907363</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1556179907363</updated>
+    </task>
+    <task id="LOCAL-00021" summary="-Added competition leaderboard info to messages&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler">
+      <created>1556203915332</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1556203915333</updated>
+    </task>
+    <task id="LOCAL-00022" summary="-Updated so it includes the possibility to unsubscribe users&#10;-Prepared for launch&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler">
+      <created>1556546426900</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1556546426900</updated>
+    </task>
+    <task id="LOCAL-00023" summary="-Bugfixes; ready for testing">
+      <created>1556659287947</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1556659287947</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="378864000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26510066" />
+      <window_info id="Structure" order="1" weight="0.24979115" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="DB Browser" order="4" weight="0.32999164" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Project Explorer" order="6" weight="0.32999164" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Job Explorer" order="9" weight="0.32999164" />
+      <window_info id="Web" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.5651558" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3434453" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.22751896" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.42036837" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.22860238" />
+      <window_info anchor="bottom" id="Problems" order="11" weight="0.2654388" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.30227518" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Console" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.4301192" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="18" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.1971831" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24946696" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.24147122" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32994527" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32942432" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven" order="12" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
+      <window_info id="Structure" order="1" weight="0.24979115" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="DB Browser" order="4" weight="0.32999164" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Project Explorer" order="6" weight="0.32999164" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Job Explorer" order="9" weight="0.32999164" />
+      <window_info id="Web" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.42903575" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4496208" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.22804533" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.42036837" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.22860238" />
+      <window_info anchor="bottom" id="Problems" order="11" weight="0.2654388" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.30227518" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Console" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.219935" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="18" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.1971831" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24946696" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.24147122" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32994527" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32942432" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven" order="12" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version committed by Raoul on dropbox on 17/04/19'" />
+    <MESSAGE value="-Added messageScheduler cron jobs&#10;-Added userprofile entity&#10;&#10;TODO:&#10;Fix that UserProfile table doesnt show in db" />
+    <MESSAGE value="-Added activity entity&#10;-Added user profile updating&#10;&#10;TODO:&#10;=Activity trigger analyzer" />
+    <MESSAGE value="-Added activity trigger analyzer&#10;&#10;TODO:&#10;=Kafka producer" />
+    <MESSAGE value="-Added kafka producer to cronservice&#10;&#10;TODO:&#10;=Kafka uitbreiden aan Spring side" />
+    <MESSAGE value="-Finished message scheduler in cron service to feed kafka queue &#10;&#10;TODO:&#10;-Add kafka to profileupdate" />
+    <MESSAGE value="-Added kafka to profileupdate&#10;&#10;TODO:&#10;-Add message_templates&#10;-Add activities" />
+    <MESSAGE value="-Added activities&#10;&#10;TODO:&#10;-Add message_templates" />
+    <MESSAGE value="-Added message_templates&#10;&#10;TODO:&#10;-Test message scheduling" />
+    <MESSAGE value="-Bug fix for POST message&#10;&#10;TODO:&#10;-Test message scheduling" />
+    <MESSAGE value="-Added schedule_id to pass on message request&#10;-Added users/messagepreferences as endpoint for message feedback page&#10;&#10;TODO:&#10;-Random/adaptive group in user&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)" />
+    <MESSAGE value="-Added treatment group property to user&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)" />
+    <MESSAGE value="-Updated MessageTemplates &amp; Activities&#10;-Debugged message scheduler&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)" />
+    <MESSAGE value="-Removed bug on MessageTemplate GET&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)" />
+    <MESSAGE value="- Started on competition leaderboard (getTeamPoint &amp; GetCurrentTeamChallenge) but kept getting throwbacks.&#10;Will now spend time on testing as it's more important&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)" />
+    <MESSAGE value="- Minor bug fixes&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)" />
+    <MESSAGE value="-POST PerformedActivities now asks for player_id instead of user_id&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)" />
+    <MESSAGE value="-Added http.not_found returns&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)" />
+    <MESSAGE value="-Added user PUT&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)" />
+    <MESSAGE value="-Improved User CRUD requests&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler&#10;     -competition leaderboards&#10;     -user in competition (user db fill)" />
+    <MESSAGE value="-Added competition leaderboard info to messages&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler" />
+    <MESSAGE value="-Updated so it includes the possibility to unsubscribe users&#10;-Prepared for launch&#10;&#10;&#10;TODO:&#10;-API request from GB API for&#10;     -competition filler" />
+    <MESSAGE value="-Bugfixes; ready for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Bugfixes; ready for testing" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="u" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/postman/Local development.postman_environment.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postman/General.postman_collection.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_2_11_2_0_1.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_kafka_spring_kafka_2_2_5_RELEASE.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/modules/api.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules/api_main.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="128" selection-start-line="28" selection-start-column="128" selection-end-line="28" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/PerformedActivityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="87" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.8/f66792d499a6fea6c7a743558f940e0ebf775ce3/jackson-databind-2.9.8-sources.jar!/com/fasterxml/jackson/databind/ObjectWriter.java" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/MessageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/ActivityWave.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/response/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/TimeInterval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/MessageTemplateRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gradle/4.10.2/gc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/ActivityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.5.RELEASE/46673f1424ad8dc3a9fc39a96730e1ee2663fc18/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/http/MediaType.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.5.RELEASE/b2338b40c93e2f46df679a1a5a1ddca913dd111f/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.5.RELEASE/b2338b40c93e2f46df679a1a5a1ddca913dd111f/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.5.RELEASE/b2338b40c93e2f46df679a1a5a1ddca913dd111f/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#124#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.5.RELEASE/46673f1424ad8dc3a9fc39a96730e1ee2663fc18/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/PerformedActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/MessageTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.5.RELEASE/46673f1424ad8dc3a9fc39a96730e1ee2663fc18/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.5.RELEASE/9f42597b821f59087bf759695992c5ea8a1fcf0d/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ReschedulingRunnable.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.5.RELEASE/9f42597b821f59087bf759695992c5ea8a1fcf0d/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/scheduling/support/DelegatingErrorHandlingRunnable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/service/ActivityTriggerAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.5.RELEASE/9f42597b821f59087bf759695992c5ea8a1fcf0d/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/scheduling/support/ScheduledMethodRunnable.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.1.5.RELEASE/992ff1c4ce798a61c8d060c3edc7b08742fa36a/spring-aop-5.1.5.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/MessageFeedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/UserProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/repository/UserProfileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="277" lean-forward="true" selection-start-line="3" selection-start-column="277" selection-end-line="3" selection-end-column="277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/service/GetCurrentTeamChallenge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/service/GetMessageScheduleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="110" selection-start-line="19" selection-start-column="110" selection-end-line="19" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/service/UpdateProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/web/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="294" column="73" selection-start-line="294" selection-start-column="73" selection-end-line="294" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/service/CronJobService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="83" column="79" selection-start-line="83" selection-start-column="79" selection-end-line="83" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/service/GetCurrentPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gb/vhs/api/entity/enumeration/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.51617646" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.51617646" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.51617646" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>api_test|api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.51617646" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.sun.mail:javax.mail:1.6.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.51617646" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
